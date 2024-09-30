@@ -1,7 +1,7 @@
 # React-SnippetsShortcuts
 Usefull shortcut snippets for react and javascript.
 #Create Context Provider and Hook snippet:
-
+	
     "reactContext": {
 	  "prefix": "rc",
 	  "scope": "javascript,typescript,javascriptreact",
@@ -30,4 +30,35 @@ Usefull shortcut snippets for react and javascript.
   
 	  ],
 	  "description": "React Context Template"
+	},
+ 	"useEffect Template": {
+	  "prefix": "ue",
+	  "scope": "javascript,typescript,javascriptreact",
+	  "body": [
+		"useEffect(()=>{},[])"
+	  ],
+	  "description": "React component"
+	},
+	"reactComponent": {
+	  "prefix": "rfc",
+	  "scope": "javascript,typescript,javascriptreact",
+	  "body": [
+		"function ${1:${TM_FILENAME_BASE}}() {",
+		"\treturn (",
+		"\t\t<div>",
+		"\t\t\t$0",
+		"\t\t</div>",
+		"\t)",
+		"}",
+		"",
+		"export default ${1:${TM_FILENAME_BASE}}",
+		""
+	  ],
+	  "description": "React component"
+	},
+     	"Print to console": {
+	  "prefix": "cl",
+	  "scope": "javascript,typescript,javascriptreact",
+	  "body": ["console.log($1)"],
+	  "description": "console.log"
 	},
