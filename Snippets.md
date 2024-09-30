@@ -1,7 +1,8 @@
 # React-SnippetsShortcuts
 Usefull shortcut snippets for react and javascript.
 #Create Context Provider and Hook snippet:
-"reactContext": {
+
+    "reactContext": {
 	  "prefix": "rc",
 	  "scope": "javascript,typescript,javascriptreact",
 	  "body": [
